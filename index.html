@@ -6,11 +6,7 @@
   <title>SignalZERO</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Inter', sans-serif;
       color: white;
@@ -43,6 +39,12 @@
       margin: 10px 0;
       color: #ccc;
     }
+    .quote {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      font-style: italic;
+      color: #bbb;
+    }
     .button {
       display: inline-block;
       margin-top: 20px;
@@ -54,9 +56,7 @@
       text-decoration: none;
       transition: background 0.3s ease;
     }
-    .button:hover {
-      background-color: #ddd;
-    }
+    .button:hover { background-color: #ddd; }
     .section {
       max-width: 900px;
       margin: 0 auto 40px;
@@ -133,6 +133,12 @@
       display: block;
       margin-top: 10px;
     }
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.2rem; }
+      .hero .subtitle { font-size: 1.4rem; }
+      .hero p, .section ul, .section ol { font-size: 1rem; }
+      .section { padding: 20px; }
+    }
   </style>
 </head>
 <body>
@@ -142,7 +148,9 @@
       <div class="subtitle">It's Time</div>
       <p>One setup. One shot. Zero emotion.</p>
       <p><em>You're one skill away from achieving your dream life.</em></p>
-      <a href="#buy" class="button">Buy Now</a>
+      <a href="#buy" class="button">Start Trading Now</a>
+      <p class="quote">"Discipline is doing what you said you’d do, long after the mood you said it in has left you."</p>
+      <p class="quote">"Confidence comes from clarity. SignalZERO helps you find it."</p>
     </div>
 
     <div class="section">
@@ -186,56 +194,16 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Entry Signals</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>London Sweep Logic</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>NY Kill Zone Timing</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>TP/SL Visualization</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Daily Bias Detection</td>
-          <td>❌</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Retest Confirmation</td>
-          <td>❌</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Dashboard Panel</td>
-          <td>❌</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Advanced PDF Guide</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>TradingView</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Other Platforms</td>
-          <td>❌</td>
-          <td>✅</td>
-        </tr>
+        <tr><td>Entry Signals</td><td>✅</td><td>✅</td></tr>
+        <tr><td>London Sweep Logic</td><td>✅</td><td>✅</td></tr>
+        <tr><td>NY Kill Zone Timing</td><td>✅</td><td>✅</td></tr>
+        <tr><td>TP/SL Visualization</td><td>✅</td><td>✅</td></tr>
+        <tr><td>Daily Bias Detection</td><td>❌</td><td>✅</td></tr>
+        <tr><td>Retest Confirmation</td><td>❌</td><td>✅</td></tr>
+        <tr><td>Dashboard Panel</td><td>❌</td><td>✅</td></tr>
+        <tr><td>Advanced PDF Guide</td><td>✅</td><td>✅</td></tr>
+        <tr><td>TradingView</td><td>✅</td><td>✅</td></tr>
+        <tr><td>Other Platforms</td><td>❌</td><td>✅</td></tr>
       </tbody>
     </table>
 
@@ -256,4 +224,3 @@
   </footer>
 </body>
 </html>
-

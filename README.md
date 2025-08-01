@@ -1,5 +1,3 @@
-# SignalZERO
-Official landing page for the SignalZERO TradingView indicator. Includes product details, purchase link, and PDF guide.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,11 +6,7 @@ Official landing page for the SignalZERO TradingView indicator. Includes product
   <title>SignalZERO</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Inter', sans-serif;
       color: white;
@@ -141,7 +135,7 @@ Official landing page for the SignalZERO TradingView indicator. Includes product
       <div class="subtitle">It's Time</div>
       <p>One setup. One shot. Zero emotion.</p>
       <p><em>You're one skill away from achieving your dream life.</em></p>
-      <a href="#buy" class="button">Buy Now</a>
+      <a href="YOUR-CHECKOUT-LINK-HERE" class="button">Buy Now</a>
     </div>
 
     <div class="section">
@@ -181,46 +175,14 @@ Official landing page for the SignalZERO TradingView indicator. Includes product
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Entry Signals</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>London Sweep Logic</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>NY Kill Zone Timing</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>TP/SL Visualization</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Daily Bias Detection</td>
-          <td>❌</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Retest Confirmation</td>
-          <td>❌</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Dashboard Panel</td>
-          <td>❌</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Advanced PDF Guide</td>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
+        <tr><td>Entry Signals</td><td>✅</td><td>✅</td></tr>
+        <tr><td>London Sweep Logic</td><td>✅</td><td>✅</td></tr>
+        <tr><td>NY Kill Zone Timing</td><td>✅</td><td>✅</td></tr>
+        <tr><td>TP/SL Visualization</td><td>✅</td><td>✅</td></tr>
+        <tr><td>Daily Bias Detection</td><td>❌</td><td>✅</td></tr>
+        <tr><td>Retest Confirmation</td><td>❌</td><td>✅</td></tr>
+        <tr><td>Dashboard Panel</td><td>❌</td><td>✅</td></tr>
+        <tr><td>Advanced PDF Guide</td><td>✅</td><td>✅</td></tr>
       </tbody>
     </table>
 
@@ -228,7 +190,7 @@ Official landing page for the SignalZERO TradingView indicator. Includes product
       <h2>Buy SignalZERO Indicator</h2>
       <p style="text-align:center; color:#ccc; margin-bottom:20px;">Instant access to the TradingView script and strategy PDF.</p>
       <div style="text-align:center;">
-        <a href="#" class="button">Purchase Now</a>
+        <a href="YOUR-CHECKOUT-LINK-HERE" class="button">Purchase Now</a>
       </div>
     </div>
   </div>
@@ -240,4 +202,4 @@ Official landing page for the SignalZERO TradingView indicator. Includes product
     <p style="color:#aaa;">Have questions, need help, or want to leave feedback? Reach out anytime.</p>
   </footer>
 </body>
-</html> 
+</html>

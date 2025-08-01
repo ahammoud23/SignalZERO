@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SignalZERO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: white;
+      background: url('https://thumbs.dreamstime.com/b/futuristic-sports-car-glows-under-neon-lights-driveway-modern-house-night-futuristic-sports-car-glows-under-391923476.jpg') no-repeat center center/cover;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 60px 20px;
+      flex: 1;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+    .hero .subtitle {
+      font-size: 1.75rem;
+      color: #eee;
+      margin: 10px 0;
+      font-weight: 600;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin: 10px 0;
+      color: #ccc;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 28px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #ddd;
+    }
+    .section {
+      max-width: 900px;
+      margin: 0 auto 40px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 12px;
+    }
+    .section h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    .section ul, .section ol {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #ddd;
+    }
+    .compare-button {
+      display: block;
+      margin: 0 auto 20px;
+      background-color: #444;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .comparison-table {
+      display: none;
+      max-width: 900px;
+      margin: 20px auto;
+      background: rgba(0, 0, 0, 0.6);
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .comparison-table th, .comparison-table td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+      color: white;
+    }
+    .comparison-table th {
+      background-color: #222;
+    }
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 40px auto;
+    }
+    .indicator-preview {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+      border: 2px solid white;
+      border-radius: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.875rem;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .contact-link {
+      color: #00ffff;
+      text-decoration: underline;
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="hero">
+      <h1>SignalZERO</h1>
+      <div class="subtitle">It's Time</div>
+      <p>One setup. One shot. Zero emotion.</p>
+      <p><em>You're one skill away from achieving your dream life.</em></p>
+      <a href="#buy" class="button">Buy Now</a>
+    </div>
+
+    <div class="section">
+      <h2>What You Get</h2>
+      <ul>
+        <li>✅ SignalZERO TradingView Indicator (shows entry alerts for ES/NQ)</li>
+        <li>✅ PDF Rulebook: Full strategy breakdown + mindset notes</li>
+        <li>✅ SL/TP logic built-in with HTF bias + liquidity sweep confirmation</li>
+        <li>✅ Trades only during NY Kill Zone (9:30–10:30 EST)</li>
+        <li>✅ Designed to help pass and grow funded accounts</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>How It Works</h2>
+      <ol>
+        <li>Waits for London high/low to be swept</li>
+        <li>Confirms HTF trend direction</li>
+        <li>Detects break of structure + strong entry candle</li>
+        <li>Sends signal with entry, stop loss, and take profit</li>
+      </ol>
+    </div>
+
+    <div class="image-row">
+      <img src="https://i.imgur.com/pQtaBgp.jpeg" alt="Signal Zero Chart 1" class="indicator-preview">
+      <img src="https://i.imgur.com/8JxX33n.jpeg" alt="Signal Zero Chart 2" class="indicator-preview">
+    </div>
+
+    <button class="compare-button" onclick="document.getElementById('compare-table').style.display='table';">Compare Versions</button>
+
+    <table class="comparison-table" id="compare-table">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>SignalZERO Basic<br>$89/month</th>
+          <th>SignalZERO Pro<br>Coming Soon</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Entry Signals</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>London Sweep Logic</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>NY Kill Zone Timing</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>TP/SL Visualization</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Daily Bias Detection</td>
+          <td>❌</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Retest Confirmation</td>
+          <td>❌</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Dashboard Panel</td>
+          <td>❌</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Advanced PDF Guide</td>
+          <td>✅</td>
+          <td>✅</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section" id="buy">
+      <h2>Buy SignalZERO Indicator</h2>
+      <p style="text-align:center; color:#ccc; margin-bottom:20px;">Instant access to the TradingView script and strategy PDF.</p>
+      <div style="text-align:center;">
+        <a href="#" class="button">Purchase Now</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 SignalZERO. All rights reserved.</p>
+    <p>This tool is for educational purposes only and does not constitute financial advice or automated trading.</p>
+    <a href="mailto:signalzerotrader@gmail.com" class="contact-link">Contact Support: signalzerotrader@gmail.com</a>
+    <p style="color:#aaa;">Have questions, need help, or want to leave feedback? Reach out anytime.</p>
+  </footer>
+</body>
+</html>
